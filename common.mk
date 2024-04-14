@@ -27,7 +27,7 @@ PRODUCT_COPY_FILES += \
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-aosp
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
@@ -284,10 +284,6 @@ PRODUCT_PACKAGES += \
 # Lineage Health
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
-
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.1-service.oneplus_sdm845
 
 # Media
 PRODUCT_PACKAGES += \
